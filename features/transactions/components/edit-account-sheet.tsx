@@ -12,9 +12,9 @@ import {
   SheetHeader,
   SheetTitle,
 } from "@/components/ui/sheet";
-import { useGetAccount } from "../api/use-get-acount";
-import { useEditAccount } from "../api/use-edit-account";
-import { useDeleteAccount } from "../api/use-delete-account";
+import { useGetAccount } from "../api/use-get-transaction";
+import { useEditAccount } from "../api/use-edit-transaction";
+import { useDeleteAccount } from "../api/use-delete-transaction";
 
 import { insertAccountSchema } from "@/db/schema";
 
